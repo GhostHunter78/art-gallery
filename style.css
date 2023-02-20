@@ -1,0 +1,530 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.body {
+  width: 100%;
+}
+
+.heading-image-tablet {
+  display: none;
+}
+
+.interier-img-tablet {
+  display: none;
+}
+
+.pic-and-chair-tablet {
+  display: none;
+}
+
+.gallery-tablet {
+  display: none;
+}
+
+.heading-image-desktop {
+  display: none;
+}
+
+.name-desktop {
+  display: none;
+}
+
+.just-black {
+  display: none;
+}
+
+.interier-img-desktop {
+  display: none;
+}
+
+.pic-and-chair-desktop {
+  display: none;
+}
+
+.gallery-desktop {
+  display: none;
+}
+
+.name {
+  width: 280px;
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 55px;
+  color: #151515;
+  margin-top: 32px;
+  margin-left: 16px;
+}
+
+.main-description {
+  width: 343px;
+  height: 112px;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+  margin-top: 32px;
+  margin-left: 16px;
+}
+
+.buttons {
+  display: flex;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.buttons:hover .location-button {
+  background-color: #d5966c;
+}
+
+.buttons:hover .arrow-button {
+  background-color: #151515;
+}
+
+.location-button {
+  width: 204px;
+  height: 72px;
+  background-color: #151515;
+  color: white;
+  border: none;
+  font-family: "Big Shoulders Display";
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.5px;
+  margin-left: 16px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.arrow-button {
+  width: 56px;
+  height: 72px;
+  background-color: #d5966c;
+  border: none;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.interier-img {
+  width: 100%;
+  padding: 120px 16px 0px 16px;
+}
+
+.name2 {
+  width: 243px;
+  height: 90px;
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  color: #151515;
+  margin-top: 25px;
+  margin-left: 16px;
+}
+
+.description2 {
+  width: 343px;
+  height: 112px;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+  margin-top: 21px;
+  margin-left: 16px;
+}
+
+.pic-and-chair {
+  width: 100%;
+  padding: 32px 16px 16px 16px;
+}
+
+.gallery {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.black-div1 {
+  width: 343px;
+  height: 293px;
+  margin: 16px;
+  background-color: #151515;
+}
+
+.motto {
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  color: #ffffff;
+  padding-top: 48px;
+  padding-left: 24px;
+}
+
+.motto-description {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 24px 24px 48px 24px;
+}
+
+.black-div2 {
+  width: 100%;
+  height: 336px;
+  background-color: #151515;
+}
+
+.bottom-logo {
+  padding-top: 48px;
+  padding-left: 32px;
+}
+
+.bottom-description {
+  width: 360px;
+  height: 104px;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-left: 32px;
+  padding-top: 38px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 60px;
+  padding-left: 32px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  filter: invert(65%) sepia(17%) saturate(978%) hue-rotate(341deg)
+    brightness(180%) contrast(100%);
+}
+
+@media (min-width: 768px) {
+  .heading-image {
+    display: none;
+  }
+
+  .heading-image-tablet {
+    display: block;
+  }
+
+  .image-and-header {
+    display: flex;
+  }
+
+  .header {
+    margin-top: 145px;
+    margin-left: -60px;
+  }
+
+  .interier-img-tablet {
+    width: 100%;
+    display: block;
+    margin-right: 40px;
+  }
+
+  .interier-img {
+    display: none;
+  }
+
+  .image-and-content {
+    display: flex;
+    margin-top: 120px;
+  }
+
+  .content {
+    margin-left: 40px;
+    margin-right: 68px;
+  }
+
+  .name2 {
+    width: 223px;
+    margin-left: 0px;
+  }
+
+  .description2 {
+    width: 223px;
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+
+  .pic-and-chair {
+    display: none;
+  }
+
+  .gallery {
+    display: none;
+  }
+
+  .pic-and-chair-tablet {
+    display: block;
+    margin-left: 40px;
+    margin-top: -15px;
+  }
+
+  .gallery-tablet {
+    display: block;
+    margin-left: 11px;
+  }
+
+  .images-and-footer {
+    display: flex;
+    margin-top: 11px;
+  }
+
+  .black-div1 {
+    width: 280px;
+    height: 396px;
+    margin-left: 11px;
+    margin-top: 11px;
+  }
+
+  .motto {
+    padding-left: 30px;
+    padding-top: 85px;
+  }
+
+  .motto-description {
+    width: 253px;
+    margin-left: 8px;
+  }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .black-div2 {
+    width: 100%;
+    height: 216px;
+    margin-top: 120px;
+  }
+
+  .bottom-logo {
+    margin-top: -20px;
+    padding-left: 39px;
+  }
+
+  .bottom-description {
+    width: 319px;
+    margin-left: 65px;
+  }
+
+  .icons {
+    padding-top: 0px;
+    margin-left: 133px;
+    margin-right: 40px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .name {
+    display: none;
+  }
+
+  .heading-image-tablet {
+    display: none;
+  }
+
+  .pic-and-chair-tablet {
+    display: none;
+  }
+
+  .gallery-tablet {
+    display: none;
+  }
+
+  .interier-img-tablet {
+    display: none;
+  }
+
+  .heading-image-desktop {
+    position: absolute;
+    display: block;
+    left: 33%;
+    z-index: -1;
+  }
+
+  .name-desktop {
+    display: block;
+    font-family: "Big Shoulders Display";
+    margin: 0;
+    font-size: 96px;
+    line-height: 88px;
+    position: absolute;
+    top: 189px;
+    left: 178px;
+    background-image: linear-gradient(
+      to right,
+      #fff 0%,
+      #fff 64.8%,
+      #151515 56.4%,
+      #151515 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+  }
+
+  .black {
+    color: black;
+  }
+
+  .just-black {
+    display: block;
+    width: 450px;
+    height: 800px;
+    background-color: #151515;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .main-description {
+    position: absolute;
+    width: 350px;
+    font-size: 22px;
+    line-height: 32px;
+    left: 67%;
+    top: 20%;
+  }
+
+  .buttons {
+    position: absolute;
+    left: 67%;
+    top: 45%;
+  }
+
+  .description2 {
+    position: absolute;
+    width: 350px;
+    top: 133%;
+    margin-left: 126px;
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 0;
+  }
+
+  .name2 {
+    width: 350px;
+    position: absolute;
+    top: 90%;
+    font-size: 60px;
+    line-height: 60px;
+    margin-left: 120px;
+    margin-top: 240px;
+  }
+
+  .interier-img-desktop {
+    display: block;
+    position: absolute;
+    left: 640px;
+    top: 980px;
+  }
+
+  .pic-and-chair-desktop {
+    display: block;
+    position: absolute;
+    left: 165px;
+    top: 1410px;
+  }
+
+  .gallery-desktop {
+    display: block;
+    position: absolute;
+    left: 830px;
+    top: 1410px;
+  }
+
+  .black-div1 {
+    position: absolute;
+    width: 445px;
+    height: 377px;
+    left: 830px;
+    top: 1753px;
+    margin: 0;
+  }
+
+  .motto {
+    width: 350px;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 65px 48px 32px 48px;
+    padding: 0;
+  }
+
+  .motto-description {
+    width: 400px;
+    font-size: 22px;
+    line-height: 32px;
+    margin-left: 48px;
+    padding: 0;
+  }
+
+  .black-div2 {
+    position: absolute;
+    left: 0px;
+    top: 2310px;
+  }
+
+  .bottom-logo {
+    margin-left: 165px;
+  }
+
+  .bottom-description {
+    width: 460px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 140px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .heading-image-desktop {
+    left: 30%;
+  }
+
+  .main-description,
+  .buttons {
+    left: 61%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .heading-image-desktop {
+    left: 27%;
+  }
+
+  .main-description,
+  .buttons {
+    left: 57%;
+  }
+
+  .name2 {
+    top: 110%;
+  }
+
+  .description2 {
+    top: 166%;
+  }
+}
